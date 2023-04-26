@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: aliceblue;
+  background-color: rgb(40, 41, 34);
+}
+.cards-box {
+
+  margin: 10px;
+  display: inline-flex;
+}
+.cards-box img {
+  margin: 10px;
+  width: 120px;
+}
+.user-buttons {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+.user-buttons button {
+  margin: 10px;
+}
+.final_score h1{
+ font-size: 40px;
+}
+.final_score > div {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.final_score {
+  position: absolute;
+  top:  0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.445);
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.final-message {
+  position: absolute;
+  top: 10%;
+  font-weight: bolder;
+  color: rgb(0, 38, 255);
+  text-shadow: rgb(9, 255, 0) 1px 0 10px;
+}
+
+.retryButton {
+  position: absolute;
+  top: 25%;
+}
